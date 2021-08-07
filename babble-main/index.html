@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+	Babble
+</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="public/style.css" rel="stylesheet">
+	
+	
+	<link rel="shortcut icon" type="image/jpg" href="favicon.png">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-expand-lg navbar-light bg-light ">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html"  class="float-start d-none d-md-block ">
+						<div id="logo-img" alt="logo image"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Babble</h1></a>
+					</div>
+				</div>
+				<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      					<span class="navbar-toggler-icon"></span>
+    				</button>
+    				<div class="float-end">
+    					<div class="collapse navbar-collapse" id="navbarNav">
+     						<ul class="navbar-nav">
+       							<li class="nav-item">
+         							<a class="nav-link active" aria-current="page" href="index.html"><span class="border-start"><i class="bi bi-house-door">Home</i></span></a>
+     					    	</li>
+        						<li class="nav-item">
+        					   		<a class="nav-link" href="features.html"><span class="border-start"><i class="bi bi-chat-text">Features</i></span></a>
+       		 					</li>
+        						<li class="nav-item">
+          							<a class="nav-link" href="about.html"><span class="border-start"><i class="bi bi-info-circle">About us</i></span></a>
+        						</li>
+        						<li class="nav-item">
+          							<a class="nav-link" href="contact.html"><span class="border-start"><i class="bi bi-telephone">Contact</i></span></a>
+        						</li>
+     	 					</ul>
+    					</div>
+    				</div>	
+			</div>
+		</nav>
+	</header>
+	<div class="main-content container" >
+		<div class="text-start fs-1 text-wrap"> <div class="my-4 mx-5 heading">Meet People and Make New Friends</div>
+			<img src="main.png" alt="chatting image" width="256" height="256" class="float-md-end">
+			<div class="fs-2 "> <div class="mt-5 mb-3 intro">Welcome to Babble!</div>
+				<div class="fs-4 mb-5 small"><p>It’s awesome to have you stop by! We really hope you enjoy our anonymous chat service and that it helps you to connect with great people from around the world. It’s crafted with love and maintained to ensure you have a safe and secure chat experience.</p>
+				</div>
+				<div class="container">
+					<div class="mb-3 intro float-md-start">Ready to Chat!</div>
+					<input type="button" id="btnClick" value="Start Chat!!" />
+					<script type="text/javascript">
+					  document.getElementById("btnClick").addEventListener("click", clicked);
+					  function clicked()
+					  {
+							  window.location.assign("http://localhost:2051")
+
+
+
+				
+					  }	
+					</script>
+				    
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

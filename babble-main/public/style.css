@@ -1,0 +1,126 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #1f1f14;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/**header***/
+#header-nav{
+	background-color: #e0e0d1;
+	border-radius: 0;
+	border: 0
+}
+p{
+	font-family: Serif;
+}
+.heading{
+	font-weight: bold;
+	font-family: cursive;
+}
+.intro{
+	font-family: "lucida console", monospace;
+}
+#logo-img {
+	background: url('logo.png') no-repeat;
+	width: 100px;
+	height: 100px;
+	margin:10px 15px 10px 0px;
+}
+.navbar-brand {
+	padding-top: 25px ;
+}
+.navbar-brand h1 { /* site name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: .75;
+}
+a{
+	text-decoration: none;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+
+  	font-size: 1.2em;
+}
+.navbar-toggler
+{
+	position: relative;
+	float: right;
+	margin-top : 10px ;
+}
+#navbarNav{	
+	font-size: 1.5em;
+	/*margin-left: 500px;*/
+}
+
+.card-body{
+	background-color: #adad85 ;
+	text-shadow: 1px 1px #000000;
+}
+
+.border-start{
+	padding-right: 5px;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+color: #557c3e!important;
+}
+.navbar .navbar-toggler:hover, .navbar-toggler:focus {
+border-color: 	rgb(85, 124, 62);
+}
+
+@media(min-width: 1200px){
+
+} 
+
+@media(min-width: 992px) and (max-width: 1199.98px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991.98px){
+	#logo-img {
+	background: url('logo1.png') no-repeat;
+	width: 90px;
+	height: 90px;
+	margin:9px 13px 9px 0px;
+	}
+
+}
+
+@media(max-width: 767.98px){
+
+	.navbar-brand {
+		padding-top: 10px ;
+		height: 80px;
+	}
+	.navbar-brand h1{ /* site name */
+  		font-size: 5vw;
+  		padding-top: 10px;
+	}
+	
+	.heading{
+		font-size: 4vw;
+	}
+	.intro{
+		font-size: 4vw;
+	}
+	.chat{
+		font-size: 3vw;
+	}
+	p{
+		font-size: 3vw;
+	}
+	.small{
+		margin-bottom: 10px;
+	}
+	.about{
+		width: 100px;
+		height: 100px;
+	}
+
+}
